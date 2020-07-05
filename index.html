@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+
+    <div class="main" id="main">
+        <div class="calculator" id="calculator">
+            <h2>Tip Calculator</h2>
+
+            <label class="bill" for="">Bill</label>
+            <input type="text" id="amount">
+            <br>
+
+            <label class="per" for="">Tip Percent</label>
+            <input type="text" id="tip_per">
+            <br>
+
+            <label id="white" for="">Tip Amount</label>
+            <input type="text" id="tipAmount" disabled>
+            <br>
+
+            <label id="white" for="">Total Bill</label>
+            <input type="text" id="totalBill" disabled>
+
+            <button type="button" onclick="calculation()" class="butn">
+                Calculate
+            </button>
+        </div>
+    </div>
+
+    <script src="tip.js"></script>
+</body>
+
+</html>
